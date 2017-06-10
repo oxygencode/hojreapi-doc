@@ -30,26 +30,48 @@ POST
   
 
   * **Code:** 200 <br />
-    **Content:** `{ id : 12 }`
- 
+    **Content:** 
+    ```
+    {
+        "status": "success",
+        "message": "Login Success",
+        "data": {
+            "id": 7617,
+            "username": "09123566777",
+            "token": "6DaLwhDEyDA2jMYm4LyQ5mlZxhktWhu3"
+        }
+    }
+    ```
+
 * **Error Response:**
-
-  <_Most endpoints will have many ways they can fail. From unauthorized access, to wrongful parameters etc. All of those should be liste d here. It might seem repetitive, but it helps prevent assumptions from being made where they should be._>
-
-  * **Code:** 401 UNAUTHORIZED <br />
-    **Content:** `{ error : "Log in" }`
-
-  OR
-
-  * **Code:** 422 UNPROCESSABLE ENTRY <br />
-    **Content:** `{ error : "Email Invalid" }`
-
-* **Sample Call:**
-
-  <_Just a sample call to your endpoint in a runnable format ($.ajax call or a curl request) - this makes life easier and more predictable._> 
-
+    ```
+     {
+         "status": "error",
+         "message": "Username or Password is incorrect",
+         "data": ""
+       }
+       
+       OR
+       
+        {
+           "status": "error",
+           "message": "Cellphone already registered but not activatad",
+           "data": -1
+         }
+         
+         OR
+         
+         {
+             "status": "error",
+             "message": "User not found",
+             "data": ""
+           }
+         
+    ```
+ 
 * **Notes:**
-@ => Cellphone
+
+Username field is Cellphone
 @password  => Min length 6 
 @x => Longitude
 @y => Latitude 
