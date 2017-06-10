@@ -1,13 +1,21 @@
-#General Services
+General Services
+----
 
-###Table List
+Table List
+----
 
-1. Register New Customer [Go](https://google.com)
+1. Register New Customer : [Go](https://google.com)
+2. Activate New Customer : [Go](https://google.com)
+3. User Login  : [Go](https://google.com)
+4. Check User is Login : [Go](https://google.com)
+5. Forget Password : [Go](https://google.com)
+6. Generate and Send New Activation Code : [Go](https://google.com)
+7. Update Token : [Go](https://google.com)
 
 
 
-
-####Register New Customer
+Register New Customer
+----
 
 * **URL**
     ```
@@ -114,3 +122,20 @@ OR
 
 * **Notes:**
 
+Activate New Customer
+----
+
+User Login
+----
+
+Check User is Login
+----
+
+Forget Password
+----
+
+Generate and Send New Activation Code
+----
+
+Update Token
+----
