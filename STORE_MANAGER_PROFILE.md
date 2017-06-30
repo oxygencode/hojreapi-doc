@@ -8,23 +8,41 @@ Table of contents
 
 3. [List All My Sellers](https://github.com/mosi1994/hojreapi-doc/blob/master/STORE_MANAGER_PROFILE.md#list-all-my-sellers)
 
-4. [Delete My Seller]()
+4. [Delete My Seller](https://github.com/mosi1994/hojreapi-doc/blob/master/STORE_MANAGER_PROFILE.md#delete-my-seller)
 
-5. [Active Seller]()
+5. [Active Seller](https://github.com/mosi1994/hojreapi-doc/blob/master/STORE_MANAGER_PROFILE.md#active-seller)
 
-6. [Edit Seller]()
+6. [Edit Seller](https://github.com/mosi1994/hojreapi-doc/blob/master/STORE_MANAGER_PROFILE.md#edit-seller)
 
-7. [Statistics]()
+7. [Statistics](https://github.com/mosi1994/hojreapi-doc/blob/master/STORE_MANAGER_PROFILE.md#statistics)
 
-8. [Store Messages]()
+8. [List All Store Messages](https://github.com/mosi1994/hojreapi-doc/blob/master/STORE_MANAGER_PROFILE.md#list-all-store-messages)
 
-9. [Answer Store Message]()
+9. [Answer Store Message](https://github.com/mosi1994/hojreapi-doc/blob/master/STORE_MANAGER_PROFILE.md#answer-store-message)
 
-10.[List Of All Offers]()
+10. [List All Offers](https://github.com/mosi1994/hojreapi-doc/blob/master/STORE_MANAGER_PROFILE.md#list-all-offers)
 
-11.[List Of All Products]()
+11. [List All Products](https://github.com/mosi1994/hojreapi-doc/blob/master/STORE_MANAGER_PROFILE.md#list-all-products)
 
-12.[Add New Product]()
+12. [Add New Product](https://github.com/mosi1994/hojreapi-doc/blob/master/STORE_MANAGER_PROFILE.md#add-new-product)
+
+13. [Delete Product](https://github.com/mosi1994/hojreapi-doc/blob/master/STORE_MANAGER_PROFILE.md#delete-product)
+
+14. [Edit Product](https://github.com/mosi1994/hojreapi-doc/blob/master/STORE_MANAGER_PROFILE.md#edit-product)
+
+15. [Add Store Gallery](https://github.com/mosi1994/hojreapi-doc/blob/master/STORE_MANAGER_PROFILE.md#edit-product)
+
+16. [Delete Store Gallery](https://github.com/mosi1994/hojreapi-doc/blob/master/STORE_MANAGER_PROFILE.md#delete-store-gallery)
+
+17. [Physical Customers](https://github.com/mosi1994/hojreapi-doc/blob/master/STORE_MANAGER_PROFILE.md#physical-customers)
+
+18. [Virtual Customers](https://github.com/mosi1994/hojreapi-doc/blob/master/STORE_MANAGER_PROFILE.md#virtual-customers)
+
+19. [List All Chats](https://github.com/mosi1994/hojreapi-doc/blob/master/STORE_MANAGER_PROFILE.md#list-all-chats)
+
+20. [List Chat Messages](https://github.com/mosi1994/hojreapi-doc/blob/master/STORE_MANAGER_PROFILE.md#list-chat-messages)
+
+
 
 **Edit Store Information**
 ----
