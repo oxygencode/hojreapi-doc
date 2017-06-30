@@ -158,3 +158,862 @@ Seller[email]:jkashdasd@asdas.com
  
 * **Notes:**
 
+
+---
+
+
+**List All My Sellers**
+----
+
+* **URL**
+
+```  
+    https://api.hojrenama.com/web/store-manager/mysellers
+```  
+    
+* **Method:**
+ ```  
+POST
+ ```
+*  **URL Params**
+
+```
+username:09121122777
+token:abdcdefghijklmno
+x:35.235564
+y:45.234523
+
+```
+
+* **Success Response:**
+  
+
+  * **Code:** 200 <br />
+    **Content:** 
+    ```
+    
+            {
+            "status": "success",
+            "message": "sellers",
+            "data": [
+                {
+                    "id": 1,
+                    "name": "محمد",
+                    "fmaily": "تستتسی س",
+                    "avatar": "img/defaults/avatars/51.png",
+                    "onlineStatus": "online"
+                },
+                {
+                    "id": 2,
+                    "name": "محمد",
+                    "fmaily": "تستتسی س",
+                    "avatar": "img/defaults/avatars/51.png",
+                    "onlineStatus": "online"
+                },
+                {
+                    "id": 3,
+                    "name": "محمد",
+                    "fmaily": "تستتسی س",
+                    "avatar": "img/defaults/avatars/51.png",
+                    "onlineStatus": "online"
+                },
+                {
+                    "id": 4,
+                    "name": "محمد",
+                    "fmaily": "تستتسی س",
+                    "avatar": "img/defaults/avatars/51.png",
+                    "onlineStatus": "online"
+                },
+                {
+                    "id": 9,
+                    "name": "Mostafa",
+                    "fmaily": "Hasanabadi",
+                    "avatar": "img/defaults/avatars/51.png",
+                    "onlineStatus": "online"
+                },
+                {
+                    "id": 10,
+                    "name": "Mostafa",
+                    "fmaily": "Hasanabadi",
+                    "avatar": "defaults/avatar.png",
+                    "onlineStatus": "offline"
+                }
+            ]
+        }
+
+    ```
+
+* **Error Response:**
+    ```
+         
+    ```
+ 
+* **Notes:**
+
+
+---
+
+
+
+**Edit Store Information**
+----
+
+* **URL**
+
+```  
+    https://api.hojrenama.com/web/store-manager/edit-store
+```  
+    
+* **Method:**
+ ```  
+POST
+ ```
+*  **URL Params**
+
+```
+
+```
+
+* **Success Response:**
+  
+
+  * **Code:** 200 <br />
+    **Content:** 
+    ```
+
+    ```
+
+* **Error Response:**
+    ```
+         
+    ```
+ 
+* **Notes:**
+
+
+---
+
+
+
+**Edit Store Information**
+----
+
+* **URL**
+
+```  
+    https://api.hojrenama.com/web/store-manager/edit-store
+```  
+    
+* **Method:**
+ ```  
+POST
+ ```
+*  **URL Params**
+
+```
+
+```
+
+* **Success Response:**
+  
+
+  * **Code:** 200 <br />
+    **Content:** 
+    ```
+
+    ```
+
+* **Error Response:**
+    ```
+         
+    ```
+ 
+* **Notes:**
+
+
+---
+
+
+
+**Edit Store Information**
+----
+
+* **URL**
+
+```  
+    https://api.hojrenama.com/web/store-manager/edit-store
+```  
+    
+* **Method:**
+ ```  
+POST
+ ```
+*  **URL Params**
+
+```
+
+```
+
+* **Success Response:**
+  
+
+  * **Code:** 200 <br />
+    **Content:** 
+    ```
+
+    ```
+
+* **Error Response:**
+    ```
+         
+    ```
+ 
+* **Notes:**
+
+
+---
+
+
+
+**Edit Store Information**
+----
+
+* **URL**
+
+```  
+    https://api.hojrenama.com/web/store-manager/edit-store
+```  
+    
+* **Method:**
+ ```  
+POST
+ ```
+*  **URL Params**
+
+```
+
+```
+
+* **Success Response:**
+  
+
+  * **Code:** 200 <br />
+    **Content:** 
+    ```
+
+    ```
+
+* **Error Response:**
+    ```
+         
+    ```
+ 
+* **Notes:**
+
+
+---
+
+
+
+**Edit Store Information**
+----
+
+* **URL**
+
+```  
+    https://api.hojrenama.com/web/store-manager/edit-store
+```  
+    
+* **Method:**
+ ```  
+POST
+ ```
+*  **URL Params**
+
+```
+
+```
+
+* **Success Response:**
+  
+
+  * **Code:** 200 <br />
+    **Content:** 
+    ```
+
+    ```
+
+* **Error Response:**
+    ```
+         
+    ```
+ 
+* **Notes:**
+
+
+---
+
+
+
+**Edit Store Information**
+----
+
+* **URL**
+
+```  
+    https://api.hojrenama.com/web/store-manager/edit-store
+```  
+    
+* **Method:**
+ ```  
+POST
+ ```
+*  **URL Params**
+
+```
+
+```
+
+* **Success Response:**
+  
+
+  * **Code:** 200 <br />
+    **Content:** 
+    ```
+
+    ```
+
+* **Error Response:**
+    ```
+         
+    ```
+ 
+* **Notes:**
+
+
+---
+
+
+
+**Edit Store Information**
+----
+
+* **URL**
+
+```  
+    https://api.hojrenama.com/web/store-manager/edit-store
+```  
+    
+* **Method:**
+ ```  
+POST
+ ```
+*  **URL Params**
+
+```
+
+```
+
+* **Success Response:**
+  
+
+  * **Code:** 200 <br />
+    **Content:** 
+    ```
+
+    ```
+
+* **Error Response:**
+    ```
+         
+    ```
+ 
+* **Notes:**
+
+
+---
+
+
+
+**Edit Store Information**
+----
+
+* **URL**
+
+```  
+    https://api.hojrenama.com/web/store-manager/edit-store
+```  
+    
+* **Method:**
+ ```  
+POST
+ ```
+*  **URL Params**
+
+```
+
+```
+
+* **Success Response:**
+  
+
+  * **Code:** 200 <br />
+    **Content:** 
+    ```
+
+    ```
+
+* **Error Response:**
+    ```
+         
+    ```
+ 
+* **Notes:**
+
+
+---
+
+
+
+**Edit Store Information**
+----
+
+* **URL**
+
+```  
+    https://api.hojrenama.com/web/store-manager/edit-store
+```  
+    
+* **Method:**
+ ```  
+POST
+ ```
+*  **URL Params**
+
+```
+
+```
+
+* **Success Response:**
+  
+
+  * **Code:** 200 <br />
+    **Content:** 
+    ```
+
+    ```
+
+* **Error Response:**
+    ```
+         
+    ```
+ 
+* **Notes:**
+
+
+---
+
+
+
+**Edit Store Information**
+----
+
+* **URL**
+
+```  
+    https://api.hojrenama.com/web/store-manager/edit-store
+```  
+    
+* **Method:**
+ ```  
+POST
+ ```
+*  **URL Params**
+
+```
+
+```
+
+* **Success Response:**
+  
+
+  * **Code:** 200 <br />
+    **Content:** 
+    ```
+
+    ```
+
+* **Error Response:**
+    ```
+         
+    ```
+ 
+* **Notes:**
+
+
+---
+
+
+
+**Edit Store Information**
+----
+
+* **URL**
+
+```  
+    https://api.hojrenama.com/web/store-manager/edit-store
+```  
+    
+* **Method:**
+ ```  
+POST
+ ```
+*  **URL Params**
+
+```
+
+```
+
+* **Success Response:**
+  
+
+  * **Code:** 200 <br />
+    **Content:** 
+    ```
+
+    ```
+
+* **Error Response:**
+    ```
+         
+    ```
+ 
+* **Notes:**
+
+
+---
+
+
+
+**Edit Store Information**
+----
+
+* **URL**
+
+```  
+    https://api.hojrenama.com/web/store-manager/edit-store
+```  
+    
+* **Method:**
+ ```  
+POST
+ ```
+*  **URL Params**
+
+```
+
+```
+
+* **Success Response:**
+  
+
+  * **Code:** 200 <br />
+    **Content:** 
+    ```
+
+    ```
+
+* **Error Response:**
+    ```
+         
+    ```
+ 
+* **Notes:**
+
+
+---
+
+
+
+**Edit Store Information**
+----
+
+* **URL**
+
+```  
+    https://api.hojrenama.com/web/store-manager/edit-store
+```  
+    
+* **Method:**
+ ```  
+POST
+ ```
+*  **URL Params**
+
+```
+
+```
+
+* **Success Response:**
+  
+
+  * **Code:** 200 <br />
+    **Content:** 
+    ```
+
+    ```
+
+* **Error Response:**
+    ```
+         
+    ```
+ 
+* **Notes:**
+
+
+---
+
+
+
+**Edit Store Information**
+----
+
+* **URL**
+
+```  
+    https://api.hojrenama.com/web/store-manager/edit-store
+```  
+    
+* **Method:**
+ ```  
+POST
+ ```
+*  **URL Params**
+
+```
+
+```
+
+* **Success Response:**
+  
+
+  * **Code:** 200 <br />
+    **Content:** 
+    ```
+
+    ```
+
+* **Error Response:**
+    ```
+         
+    ```
+ 
+* **Notes:**
+
+
+---
+
+
+
+
+**Edit Store Information**
+----
+
+* **URL**
+
+```  
+    https://api.hojrenama.com/web/store-manager/edit-store
+```  
+    
+* **Method:**
+ ```  
+POST
+ ```
+*  **URL Params**
+
+```
+
+```
+
+* **Success Response:**
+  
+
+  * **Code:** 200 <br />
+    **Content:** 
+    ```
+
+    ```
+
+* **Error Response:**
+    ```
+         
+    ```
+ 
+* **Notes:**
+
+
+---
+
+
+
+
+**Edit Store Information**
+----
+
+* **URL**
+
+```  
+    https://api.hojrenama.com/web/store-manager/edit-store
+```  
+    
+* **Method:**
+ ```  
+POST
+ ```
+*  **URL Params**
+
+```
+
+```
+
+* **Success Response:**
+  
+
+  * **Code:** 200 <br />
+    **Content:** 
+    ```
+
+    ```
+
+* **Error Response:**
+    ```
+         
+    ```
+ 
+* **Notes:**
+
+
+---
+
+
+
+**Edit Store Information**
+----
+
+* **URL**
+
+```  
+    https://api.hojrenama.com/web/store-manager/edit-store
+```  
+    
+* **Method:**
+ ```  
+POST
+ ```
+*  **URL Params**
+
+```
+
+```
+
+* **Success Response:**
+  
+
+  * **Code:** 200 <br />
+    **Content:** 
+    ```
+
+    ```
+
+* **Error Response:**
+    ```
+         
+    ```
+ 
+* **Notes:**
+
+
+---
+
+
+
+
+
+**Edit Store Information**
+----
+
+* **URL**
+
+```  
+    https://api.hojrenama.com/web/store-manager/edit-store
+```  
+    
+* **Method:**
+ ```  
+POST
+ ```
+*  **URL Params**
+
+```
+
+```
+
+* **Success Response:**
+  
+
+  * **Code:** 200 <br />
+    **Content:** 
+    ```
+
+    ```
+
+* **Error Response:**
+    ```
+         
+    ```
+ 
+* **Notes:**
+
+
+---
+
+
+
+
+**Edit Store Information**
+----
+
+* **URL**
+
+```  
+    https://api.hojrenama.com/web/store-manager/edit-store
+```  
+    
+* **Method:**
+ ```  
+POST
+ ```
+*  **URL Params**
+
+```
+
+```
+
+* **Success Response:**
+  
+
+  * **Code:** 200 <br />
+    **Content:** 
+    ```
+
+    ```
+
+* **Error Response:**
+    ```
+         
+    ```
+ 
+* **Notes:**
+
+
+---
