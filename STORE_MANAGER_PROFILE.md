@@ -1,3 +1,12 @@
+*Store Manager Web Services*
+
+Table of contents
+---
+1.[Edit Store Information](https://github.com/mosi1994/hojreapi-doc/blob/master/STORE_MANAGER_PROFILE.md#edit-store-information) 
+2.[Add New Seller](https://github.com/mosi1994/hojreapi-doc/blob/master/STORE_MANAGER_PROFILE.md#add-new-seller) 
+
+
+
 **Edit Store Information**
 ----
 
@@ -60,3 +69,55 @@ Store[linkedin]:@linkedin
     ```
  
 * **Notes:**
+
+
+---
+
+**Add New Seller**
+----
+
+* **URL**
+
+```  
+    https://api.hojrenama.com/web/store-manager/addseller
+```  
+    
+* **Method:**
+ ```  
+POST
+ ```
+*  **URL Params**
+
+```
+username:09121122777
+token:abdcdefghijklmno
+x:35.235564
+y:45.234523
+Seller[name]:Mostafa
+Seller[family]:Hasanabadi
+Seller[cellPhone]:09336658833
+Seller[avatar]:defaults/avatar.png
+Seller[password]:123456
+Seller[email]:jkashdasd@asdas.com
+```
+
+* **Success Response:**
+  
+
+  * **Code:** 200 <br />
+    **Content:** 
+    ```
+        {
+            "status": "success",
+            "message": "Seller Created",
+            "data": ""
+        }
+    ```
+
+* **Error Response:**
+    ```
+         
+    ```
+ 
+* **Notes:**
+
