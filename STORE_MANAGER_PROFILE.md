@@ -2,10 +2,29 @@
 
 Table of contents
 ---
-1.[Edit Store Information](https://github.com/mosi1994/hojreapi-doc/blob/master/STORE_MANAGER_PROFILE.md#edit-store-information) 
-2.[Add New Seller](https://github.com/mosi1994/hojreapi-doc/blob/master/STORE_MANAGER_PROFILE.md#add-new-seller) 
+1. [Edit Store Information](https://github.com/mosi1994/hojreapi-doc/blob/master/STORE_MANAGER_PROFILE.md#edit-store-information) 
 
+2. [Add New Seller](https://github.com/mosi1994/hojreapi-doc/blob/master/STORE_MANAGER_PROFILE.md#add-new-seller) 
 
+3. [List All My Sellers](https://github.com/mosi1994/hojreapi-doc/blob/master/STORE_MANAGER_PROFILE.md#list-all-my-sellers)
+
+4. [Delete My Seller]()
+
+5. [Active Seller]()
+
+6. [Edit Seller]()
+
+7. [Statistics]()
+
+8. [Store Messages]()
+
+9. [Answer Store Message]()
+
+10.[List Of All Offers]()
+
+11.[List Of All Products]()
+
+12.[Add New Product]()
 
 **Edit Store Information**
 ----
