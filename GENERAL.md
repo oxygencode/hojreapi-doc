@@ -6,6 +6,62 @@ Table Of Content
 
 1. [Checking For Previous LIKE/DISLIKE/NOTIFICATION/COMMENT/VIEW On target Bazzar/Mall/Product/Store](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#is-true)
 
+2.[Login](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#is-true)
+
+3.[Register](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#is-true)
+
+4.[Forget Password](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#is-true)
+
+5.[Home Page Images](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#is-true)
+
+6.[Popular Bazzars](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#is-true)
+
+7.[About Us](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#is-true)
+
+8.[Contact Us Data](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#is-true)
+
+9.[Send Support Message](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#is-true)
+
+10.[Main Search](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#is-true)
+
+11.[Get Countries](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#is-true)
+
+12.[Get States](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#is-true)
+
+13.[Get Cities](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#is-true)
+
+14.[Get Hoods](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#is-true)
+
+15.[Get One Bazzar](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#is-true)
+
+16.[Get One Mall](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#is-true)
+
+17.[Get One Store](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#is-true)
+
+18.[Get One Product](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#is-true)
+
+19.[Check Activation Code](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#is-true)
+
+20.[New Activation Code](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#is-true)
+
+21.[New Token](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#is-true)
+
+22.[Is Login](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#is-true)
+
+23.[Bazzar Categories](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#is-true)
+
+24.[Bazzar View](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#is-true)
+
+25.[Mall View](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#is-true)
+
+26.[Store View](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#is-true)
+
+27.[Product View](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#is-true)
+
+
+
+
+
 ---
 
 **Is True**
