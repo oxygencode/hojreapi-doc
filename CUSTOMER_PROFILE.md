@@ -28,6 +28,8 @@ username:09121122777
 token:abdcdefghijklmno
 x:35.235564
 y:45.234523
+perPage:10
+page:2
 ```
 
 * **Success Response:**
@@ -139,7 +141,7 @@ y:45.234523
 * **URL**
 
 ```  
-    https://api.hojrenama.com/web/chats
+    https://api.hojrenama.com/web/main-chats
 ```  
     
 * **Method:**
@@ -154,6 +156,8 @@ token:abdcdefghijklmno
 x:35.235564
 y:45.234523
 id:7
+perPage:10
+page:2
 ```
 
 * **Success Response:**
