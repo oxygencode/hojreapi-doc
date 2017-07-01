@@ -2,9 +2,9 @@
 
 Table of contents
 ---
-1. [Chat Logs](https://github.com/mosi1994/hojreapi-doc/blob/master/STORE_MANAGER_PROFILE.md#chat-logs) 
+1. [Chat Logs](https://github.com/mosi1994/hojreapi-doc/blob/master/CUSTOMER_PROFILE.md#chat-logs) 
 
-2. [Chat Messages](https://github.com/mosi1994/hojreapi-doc/blob/master/STORE_MANAGER_PROFILE.md#chat-messages) 
+2. [Chat Messages](https://github.com/mosi1994/hojreapi-doc/blob/master/CUSTOMER_PROFILE.md#chat-messages) 
 
 
 
