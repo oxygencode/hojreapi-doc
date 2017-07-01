@@ -132,3 +132,112 @@ y:45.234523
 
 
 ---
+
+**Chat Messages**
+----
+
+* **URL**
+
+```  
+    https://api.hojrenama.com/web/chats
+```  
+    
+* **Method:**
+ ```  
+GET
+ ```
+*  **URL Params**
+
+```
+username:09121122777
+token:abdcdefghijklmno
+x:35.235564
+y:45.234523
+id:7
+```
+
+* **Success Response:**
+  
+
+  * **Code:** 200 <br />
+    **Content:** 
+    ```
+               {
+    "items": [
+        {
+            "id": 4,
+            "sender": "Mostafa Azizi",
+            "text": "test4",
+            "sentDate": 1497088004,
+            "status": "sent",
+            "chat": 7,
+            "senderId": 1,
+            "senderAvatar": "defaults/avatars/4.png"
+        },
+        {
+            "id": 3,
+            "sender": "Jasem Eshghi",
+            "text": "test3",
+            "sentDate": 1497088003,
+            "status": "sent",
+            "chat": 7,
+            "senderId": 4,
+            "senderAvatar": "img/defaults/avatars/51.png"
+        },
+        {
+            "id": 2,
+            "sender": "Jasem Eshghi",
+            "text": "test2",
+            "sentDate": 1497088001,
+            "status": "sent",
+            "chat": 7,
+            "senderId": 4,
+            "senderAvatar": "img/defaults/avatars/51.png"
+        },
+        {
+            "id": 1,
+            "sender": "Mostafa Azizi",
+            "text": "test",
+            "sentDate": 1497088000,
+            "status": "sent",
+            "chat": 7,
+            "senderId": 1,
+            "senderAvatar": "defaults/avatars/4.png"
+        }
+    ],
+    "_links": {
+        "self": {
+            "href": "http://localhost/hojreapi/web/main-chats?username=09121111111&token=x8FRh4z7_TG_WA3ZLWtuMIVtJAnQBnk9&id=7&page=1&per-page=300"
+        }
+    },
+    "_meta": {
+        "totalCount": 4,
+        "pageCount": 1,
+        "currentPage": 1,
+        "perPage": 300
+    }
+}
+    ```
+
+* **Error Response:**
+    ```
+       {
+        "status": "error",
+        "message": "there is no chat for u",
+        "data": ""
+        }  
+        
+        OR 
+        
+        {
+            "status": "error",
+            "message": "not login",
+            "data": ""
+        }
+    ```
+ 
+* **Notes:**
+
+
+---
+
