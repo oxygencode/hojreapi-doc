@@ -1,10 +1,10 @@
-#General Services
+# General Services
 
 Table Of Content
 
 ---
 
-1. [Checking For Previous LIKE/DISLIKE/NOTIFICATION/COMMENT/VIEW On target Bazzar/Mall/Product/Store](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#is-true)
+1.[Checking For Previous LIKE/DISLIKE/NOTIFICATION/COMMENT/VIEW On target Bazzar/Mall/Product/Store](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#is-true)
 
 2.[Login](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#is-true)
 
