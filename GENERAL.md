@@ -28,8 +28,8 @@ POST
     token:abdcdefghijklmno
     x:35.235564
     y:45.234523
-    type:like
-    target:bazzar
+    type:like  ( like , dislike , view , comment , notification , favorite )
+    target:bazzar ( bazzar , mall , product , store )
     id:13
 ```
 
