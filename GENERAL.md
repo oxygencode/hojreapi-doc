@@ -6,61 +6,137 @@ Table Of Content
 
 1.[Checking For Previous LIKE/DISLIKE/NOTIFICATION/COMMENT/VIEW On target Bazzar/Mall/Product/Store](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#is-true)
 
-2.[Login](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#is-true)
+2.[Login](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#login)
 
-3.[Register](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#is-true)
+3.[Register](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#register)
 
-4.[Forget Password](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#is-true)
+4.[Forget Password](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#forget-password)
 
-5.[Home Page Images](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#is-true)
+5.[Home Page Images](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#home-page-image)
 
-6.[Popular Bazzars](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#is-true)
+6.[Popular Bazzars](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#popular-bazzars)
 
-7.[About Us](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#is-true)
+7.[About Us](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#about-us)
 
-8.[Contact Us Data](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#is-true)
+8.[Contact Us Data](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#contact-us)
 
-9.[Send Support Message](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#is-true)
+9.[Send Support Message](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#send-support-message)
 
-10.[Main Search](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#is-true)
+10.[Main Search](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#main-search)
 
-11.[Get Countries](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#is-true)
+11.[Get Countries](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#get-countries)
 
-12.[Get States](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#is-true)
+12.[Get States](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#get-states)
 
-13.[Get Cities](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#is-true)
+13.[Get Cities](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#get-cities)
 
-14.[Get Hoods](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#is-true)
+14.[Get Hoods](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#get-hoods)
 
-15.[Get One Bazzar](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#is-true)
+15.[Get One Bazzar](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#get-one-bazzar)
 
-16.[Get One Mall](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#is-true)
+16.[Get One Mall](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#get-one-mall)
 
-17.[Get One Store](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#is-true)
+17.[Get One Store](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#get-one-store)
 
-18.[Get One Product](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#is-true)
+18.[Get One Product](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#get-one-product)
 
-19.[Check Activation Code](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#is-true)
+19.[Check Activation Code](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#check-activation-code)
 
-20.[New Activation Code](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#is-true)
+20.[New Activation Code](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#new-activation-code)
 
-21.[New Token](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#is-true)
+21.[New Token](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#new-token)
 
-22.[Is Login](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#is-true)
+22.[Is Login](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#is-login)
 
-23.[Bazzar Categories](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#is-true)
+23.[Bazzar Categories](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#bazzar-categories)
 
-24.[Bazzar View](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#is-true)
+24.[Bazzar View](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#bazzar-view)
 
-25.[Mall View](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#is-true)
+25.[Mall View](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#mall-view)
 
-26.[Store View](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#is-true)
+26.[Store View](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#store-view)
 
-27.[Product View](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#is-true)
+27.[Product View](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#product-view)
 
 28.[Store Register](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#store-register)
 
+29.[Store Manager and Seller Login](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#store-login)
 
+---
+
+**Store Login**
+----
+
+* **URL**
+
+```  
+        https://api.hojrenama.com/web/user/store-login
+
+```  
+    
+* **Method:**
+ ```  
+POST
+ ```
+*  **URL Params**
+
+```
+@username => Cellphone
+@password => Min length 6
+@x => Longitude
+@y => Latitude
+```
+
+* **Success Response:**
+  
+
+  * **Code:** 200 <br />
+    **Content:** 
+    ```
+        {
+        "status": "success",
+        "message": "Login Success",
+        "data": {
+                "id": 7617,
+                "username": "09123566777",
+                "token": "6DaLwhDEyDA2jMYm4LyQ5mlZxhktWhu3"
+         }
+        }
+    ```
+
+* **Error Response:**
+    ```
+                {
+                    "status": "error",
+                    "message": "You are not seller or store manager",
+                    "data": ""
+                }
+                {
+                "status": "error",
+                "message": "Username or Password is incorrect",
+                "data": ""
+                }
+                
+                {
+                "status": "error",
+                "message": " Cellphone already registered but not activatad ",
+                "data": -1
+                }
+                
+                {
+                "status": "error",
+                "message": " User not found ",
+                "data": ""
+                }
+
+    
+    
+    ```
+ 
+* **Notes:**
+
+
+---
 ---
 
 **Login**
