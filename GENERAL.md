@@ -62,6 +62,136 @@ Table Of Content
 
 29.[Store Manager and Seller Login](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#store-login)
 
+
+**Forget Password**
+----
+
+* **URL**
+
+```  
+        https://api.hojrenama.com/web/user/forget
+```  
+    
+* **Method:**
+ ```  
+POST
+ ```
+*  **URL Params**
+
+```
+@username => CellPhone
+```
+
+* **Success Response:**
+  
+
+  * **Code:** 200 <br />
+    **Content:** 
+    ```
+
+        {
+        "status": "success",
+        "message": "New Password generated and sent ",
+        "data": ""
+        }
+    ```
+
+* **Error Response:**
+    ```
+            {
+        "status": "error",
+        "message": "User Not Found",
+        "data": ""
+        }
+    
+    ```
+ 
+* **Notes:**
+
+
+---
+
+---
+
+**Register**
+----
+
+* **URL**
+
+```  
+        https://api.hojrenama.com/web/user/register
+
+```  
+    
+* **Method:**
+ ```  
+POST
+ ```
+*  **URL Params**
+
+```
+@username => Cellphone
+@password => Min length 6
+@x => Longitude
+@y => Latitude
+```
+
+* **Success Response:**
+  
+
+  * **Code:** 200 <br />
+    **Content:** 
+    ```
+        {
+        "status": "success",
+        "message": "User intial register is done",
+        "id": 7617,
+        "username": "09123566777"
+        }
+    ```
+
+* **Error Response:**
+    ```
+              {
+                "status": "error",
+                "message": "Cellphone already registered but not activatad",
+                "data": -1
+                }
+                {
+                "status": "error",
+                "message": "Cellphone already existed",
+                "data": ""
+                }
+                {
+                "status": "error",
+                "message": "Cellphone is not validated",
+                "data": ""
+                }
+                {
+                "status": "error",
+                "message": "Username or Password cannot be blank.",
+                "data": ""
+                }
+                {
+                "status": "error",
+                "message": “Cant Validate Data",
+                "data": ""
+                }
+                {
+                "status": "error",
+                "message": "Server Error",
+                "data": ""
+                }
+
+    
+    
+    ```
+ 
+* **Notes:**
+
+
+---
+
 ---
 
 **Store Login**
