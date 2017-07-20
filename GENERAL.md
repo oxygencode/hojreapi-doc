@@ -58,7 +58,102 @@ Table Of Content
 
 27.[Product View](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#is-true)
 
+28.[Store Register](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#store-register)
 
+
+---
+
+**Store Register**
+----
+
+* **URL**
+
+```  
+        https://api.hojrenama.com/web/user/store-register
+
+```  
+    
+* **Method:**
+ ```  
+POST
+ ```
+*  **URL Params**
+
+```
+username:09112325628
+password:123456
+x:51.408364
+y:35.708647
+email:masada2@asdasdas.com
+state:1
+city:19
+hood:402
+phone:33835516
+name:Mosadhsd
+family:Hasnaabaidi
+certificate:img/defaults/product.png
+title:MOSIOUS-SHOP
+address:Tehran
+category:1
+bazzar:26
+mall:20
+```
+
+* **Success Response:**
+  
+
+  * **Code:** 200 <br />
+    **Content:** 
+    ```
+        {
+            "status": "success",
+            "message": "User intial register is done",
+            "id": 12 ,
+            "username": 0912345555
+        }
+    ```
+
+* **Error Response:**
+    ```
+            {
+                "status": "error",
+                "message": "store has error",
+                "data": ""
+            }
+            {
+                "status": "error",
+                "message": "Username or Password cannot be blank.",
+                "data": ""
+            }
+            {
+                "status": "error",
+                "message": "Cellphone is not validated",
+                "data": ""
+            }
+            {
+                "status": "error",
+                "message": "Server Error",
+                "data": ""
+            }
+            {
+                "status": "error",
+                "message": "Cant validate data",
+                "data": ""
+            }
+            {
+                "status": "error",
+                "message": "Cellphone or Email already existed",
+                "data": ""
+            }
+           
+    
+    
+    ```
+ 
+* **Notes:**
+
+
+---
 
 
 
