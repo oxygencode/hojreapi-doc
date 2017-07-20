@@ -65,6 +65,170 @@ Table Of Content
 
 
 
+**Check Activation Code**
+----
+
+* **URL**
+
+```  
+        https://api.hojrenama.com/web/user/checkactivationcode
+```  
+    
+* **Method:**
+ ```  
+POST
+ ```
+*  **URL Params**
+
+```
+@username => Cellphone
+@code => integer [10000 - 99999]
+@x => Longitude
+@y => Latitude
+```
+
+* **Success Response:**
+  
+
+  * **Code:** 200 <br />
+    **Content:** 
+    ```
+        {
+        "status": "success",
+        "message": "User is Activated",
+        "data": ""
+        }
+
+    ```
+
+* **Error Response:**
+    ```
+    {
+        "status": "error",
+        "message": "Incorrect Code",
+        "data": ""
+        }
+           
+   
+    ```
+ 
+* **Notes:**
+
+
+---
+
+
+**New Activation Code**
+----
+
+* **URL**
+
+```  
+        https://api.hojrenama.com/web/user/newactivationcode
+```  
+    
+* **Method:**
+ ```  
+POST
+ ```
+*  **URL Params**
+
+```
+@username => Cellphone
+@x => Longitude
+@y => Latitude
+
+```
+
+* **Success Response:**
+  
+
+  * **Code:** 200 <br />
+    **Content:** 
+    ```
+        {
+        "status": "success",
+        "message": "New Activation Code Generated",
+        "data": ""
+        }
+
+    ```
+
+* **Error Response:**
+    ```
+            {
+        "status": "error",
+        "message": "User is Activated",
+        "data": ""
+        }
+        {
+        "status": "error",
+        "message": "User is not registered",
+        "data": ""
+        }
+    
+    ```
+ 
+* **Notes:**
+
+
+---
+
+**New Token**
+----
+
+* **URL**
+
+```  
+        https://api.hojrenama.com/web/user/newtoken
+```  
+    
+* **Method:**
+ ```  
+POST
+ ```
+*  **URL Params**
+
+```
+@username => Cellphone
+@token => Access Token
+@x => Longitude
+@y => Latitude
+```
+
+* **Success Response:**
+  
+
+  * **Code:** 200 <br />
+    **Content:** 
+    ```
+        {
+        "status": "success",
+        "message": "Token Updated",
+        "data": {
+        "id": 7617,
+        "username": "09123566777",
+        "token": "eJ-m_XcEeRPOz5ruWGkmfPbX2gAGMwoP"
+        }
+        }
+
+    ```
+
+* **Error Response:**
+    ```
+        {
+        "status": "error",
+        "message": "Token is not valid",
+        "data": ""
+        }
+    
+    ```
+ 
+* **Notes:**
+
+
+---
+
 **Is Login**
 ----
 
