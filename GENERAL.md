@@ -63,6 +63,61 @@ Table Of Content
 29.[Store Manager and Seller Login](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#store-login)
 
 
+
+
+**Is Login**
+----
+
+* **URL**
+
+```  
+        https://api.hojrenama.com/web/user/islogin
+```  
+    
+* **Method:**
+ ```  
+POST
+ ```
+*  **URL Params**
+
+```
+@username => Cellphone
+@token => Access Token
+@x => Longitude
+@y => Latitude
+```
+
+* **Success Response:**
+  
+
+  * **Code:** 200 <br />
+    **Content:** 
+    ```
+        {
+        "status": "success",
+        "message": "Token is true",
+        "data": ""
+        }
+
+    ```
+
+* **Error Response:**
+    ```
+        {
+        "status": "error",
+        "message": "Token is not valid",
+        "data": ""
+        }
+    
+    ```
+ 
+* **Notes:**
+
+
+---
+
+
+
 **Forget Password**
 ----
 
