@@ -1227,13 +1227,13 @@ Product[top]:no
 
 
 
-**Edit Store Information**
+**Delete Product**
 ----
 
 * **URL**
 
 ```  
-    https://api.hojrenama.com/web/store-manager/edit-store
+    https://api.hojrenama.com/web/store-manager/delete-product
 ```  
     
 * **Method:**
@@ -1243,6 +1243,9 @@ POST
 *  **URL Params**
 
 ```
+    username:09121122777
+    token:abdcdefghijklmno
+    product:2
 
 ```
 
@@ -1252,7 +1255,11 @@ POST
   * **Code:** 200 <br />
     **Content:** 
     ```
-
+        {
+            "status": "success",
+            "message": "Product Deleted",
+            "data": ""
+        }
     ```
 
 * **Error Response:**
