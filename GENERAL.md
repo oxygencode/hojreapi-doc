@@ -63,6 +63,77 @@ Table Of Content
 
 ---
 
+**Login**
+----
+
+* **URL**
+
+```  
+        https://api.hojrenama.com/web/user/login
+
+```  
+    
+* **Method:**
+ ```  
+POST
+ ```
+*  **URL Params**
+
+```
+@username => Cellphone
+@password => Min length 6
+@x => Longitude
+@y => Latitude
+```
+
+* **Success Response:**
+  
+
+  * **Code:** 200 <br />
+    **Content:** 
+    ```
+        {
+        "status": "success",
+        "message": "Login Success",
+        "data": {
+                "id": 7617,
+                "username": "09123566777",
+                "token": "6DaLwhDEyDA2jMYm4LyQ5mlZxhktWhu3"
+         }
+        }
+    ```
+
+* **Error Response:**
+    ```
+                {
+                "status": "error",
+                "message": "Username or Password is incorrect",
+                "data": ""
+                }
+                
+                {
+                "status": "error",
+                "message": " Cellphone already registered but not activatad ",
+                "data": -1
+                }
+                
+                {
+                "status": "error",
+                "message": " User not found ",
+                "data": ""
+                }
+
+    
+    
+    ```
+ 
+* **Notes:**
+
+
+---
+
+---
+
 **Store Register**
 ----
 
