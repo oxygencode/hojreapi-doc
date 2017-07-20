@@ -90,6 +90,99 @@ Table of contents
 
 43. [Change Password](https://github.com/mosi1994/hojreapi-doc/blob/master/CUSTOMER_PROFILE.md#change-password) 
 
+
+
+
+
+**Edit Profile**
+----
+
+* **URL**
+
+```  
+        https://api.hojrenama.com/web/user/edit
+```  
+    
+* **Method:**
+ ```  
+POST
+ ```
+*  **URL Params**
+
+```
+@username
+@token
+@x
+@y
+@name
+@family
+$phone
+$email
+$state
+$city
+$hood
+$address
+$age
+$gender
+$telegram
+$twitter
+$linkedin
+$facebook
+$instagram
+$googleplus
+$website
+$avatar
+
+```
+
+* **Success Response:**
+  
+
+  * **Code:** 200 <br />
+    **Content:** 
+    ```
+{
+"status": "success",
+"message": "updated successfully",
+"data": ""
+}
+
+    ```
+
+* **Error Response:**
+    ```
+        {
+    "status": "error",
+    "message": "not login",
+    "data": ""
+    }
+    
+    {
+    "status": "error",
+    "message": "Server Error",
+    "data": [
+    "Name should contain at least 3 characters.",
+    "Family should contain at least 3 characters.",
+    "Address should contain at least 5 characters.",
+    "State is invalid.",
+    "City is invalid.",
+    "Hood is invalid.",
+    "Gender is invalid.",
+    "Phone is not valid",
+    "Age must be an integer.",
+    "This email address has already been taken."
+    ]
+    }
+
+
+    
+    ```
+ 
+* **Notes:**
+
+
+---
+
 ---
 
 **Broadcasts**
