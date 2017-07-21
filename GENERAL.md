@@ -63,6 +63,493 @@ Table Of Content
 29.[Store Manager and Seller Login](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#store-login)
 
 
+
+**Get Hoods**
+----
+
+* **URL**
+
+```  
+        https://api.hojrenama.com/web/hoods
+```  
+    
+* **Method:**
+ ```  
+GET
+ ```
+*  **URL Params**
+
+```
+
+```
+
+* **Success Response:**
+  
+
+  * **Code:** 200 <br />
+    **Content:** 
+    ```
+
+
+    ```
+
+* **Error Response:**
+    ```
+    
+    
+    ```
+ 
+* **Notes:**
+
+
+---
+
+
+**Get Cities**
+----
+
+* **URL**
+
+```  
+        https://api.hojrenama.com/web/cities
+```  
+    
+* **Method:**
+ ```  
+GET
+ ```
+*  **URL Params**
+
+```
+
+```
+
+* **Success Response:**
+  
+
+  * **Code:** 200 <br />
+    **Content:** 
+    ```
+            {
+            "items": [
+                {
+                    "id": 95,
+                    "title": "آبادان",
+                    "state": 4
+                },
+                {
+                    "id": 326,
+                    "title": "صباشهر",
+                    "state": 14
+                },
+                {
+                    "id": 392,
+                    "title": "صحنه",
+                    "state": 19
+                },
+                {
+                    "id": 329,
+                    "title": "صفادشت",
+                    "state": 14
+                },
+                {
+                    "id": 89,
+                    "title": "صفاشهر ـ خرم بید",
+                    "state": 3
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://localhost/hojreapi/web/cities?page=1&per-page=300"
+                },
+                "next": {
+                    "href": "http://localhost/hojreapi/web/cities?page=2&per-page=300"
+                },
+                "last": {
+                    "href": "http://localhost/hojreapi/web/cities?page=2&per-page=300"
+                }
+            },
+            "_meta": {
+                "totalCount": 516,
+                "pageCount": 2,
+                "currentPage": 1,
+                "perPage": 300
+            }
+        }
+
+    ```
+
+* **Error Response:**
+    ```
+    
+    
+    ```
+ 
+* **Notes:**
+
+
+---
+
+**Get States**
+----
+
+* **URL**
+
+```  
+        https://api.hojrenama.com/web/states
+```  
+    
+* **Method:**
+ ```  
+GET
+ ```
+*  **URL Params**
+
+```
+
+```
+
+* **Success Response:**
+  
+
+  * **Code:** 200 <br />
+    **Content:** 
+    ```
+                {
+                    "items": [
+                        {
+                            "id": 8,
+                            "title": "آذربایجان شرقی",
+                            "country": 102,
+                            "longitude": "46.647626",
+                            "latitude": "37.875499",
+                            "englishTitle": "Azarbayejan Sharghi"
+                        },
+                        {
+                            "id": 9,
+                            "title": "آذربایجان غربی",
+                            "country": 102,
+                            "longitude": "44.965059",
+                            "latitude": "37.540774",
+                            "englishTitle": "Azarbayejan Gharbi"
+                        },
+                        {
+                            "id": 25,
+                            "title": "اردبیل",
+                            "country": 102,
+                            "longitude": "48.2709935",
+                            "latitude": "38.2666961",
+                            "englishTitle": "Ardebil"
+                        },
+                        {
+                            "id": 2,
+                            "title": "اصفهان",
+                            "country": 102,
+                            "longitude": "51.6411826",
+                            "latitude": "32.6543035",
+                            "englishTitle": "Esfehan"
+                        },
+                        {
+                            "id": 14,
+                            "title": "البرز",
+                            "country": 102,
+                            "longitude": "50.882333",
+                            "latitude": "36.055187",
+                            "englishTitle": "Alborz"
+                        },
+                        {
+                            "id": 31,
+                            "title": "ایلام",
+                            "country": 102,
+                            "longitude": "46.3949339",
+                            "latitude": "33.6339967",
+                            "englishTitle": "Ilam"
+                        },
+                        {
+                            "id": 12,
+                            "title": "بوشهر",
+                            "country": 102,
+                            "longitude": "50.895271",
+                            "latitude": "28.899536",
+                            "englishTitle": "Boshehr"
+                        },
+                        {
+                            "id": 1,
+                            "title": "تهران",
+                            "country": 102,
+                            "longitude": "51.613521",
+                            "latitude": "35.619787",
+                            "englishTitle": "Tehran"
+                        },
+                        {
+                            "id": 29,
+                            "title": "خراسان جنوبی",
+                            "country": 102,
+                            "longitude": "55.9821802",
+                            "latitude": "32.7569972",
+                            "englishTitle": "Khorasane Jonobi"
+                        },
+                        {
+                            "id": 7,
+                            "title": "خراسان رضوی",
+                            "country": 102,
+                            "longitude": "58.855368",
+                            "latitude": "35.699608",
+                            "englishTitle": "Khorasan Razavi"
+                        },
+                        {
+                            "id": 30,
+                            "title": "خراسان شمالی",
+                            "country": 102,
+                            "longitude": "56.343524",
+                            "latitude": "37.4516751",
+                            "englishTitle": "Khorasane Shomali"
+                        },
+                        {
+                            "id": 4,
+                            "title": "خوزستان",
+                            "country": 102,
+                            "longitude": "48.894062",
+                            "latitude": "31.672187",
+                            "englishTitle": "Khouzestan"
+                        },
+                        {
+                            "id": 26,
+                            "title": "زنجان",
+                            "country": 102,
+                            "longitude": "48.4231832",
+                            "latitude": "36.681",
+                            "englishTitle": "Zanjan"
+                        },
+                        {
+                            "id": 23,
+                            "title": "سمنان",
+                            "country": 102,
+                            "longitude": "54.577438",
+                            "latitude": "35.320108",
+                            "englishTitle": "Semnan"
+                        },
+                        {
+                            "id": 17,
+                            "title": "سیستان و بلوچستان",
+                            "country": 102,
+                            "longitude": "60.656972",
+                            "latitude": "27.651762",
+                            "englishTitle": "Sistan va Balochestan"
+                        },
+                        {
+                            "id": 3,
+                            "title": "فارس",
+                            "country": 102,
+                            "longitude": "53.020421",
+                            "latitude": "29.207092",
+                            "englishTitle": "Fars"
+                        },
+                        {
+                            "id": 22,
+                            "title": "قزوین",
+                            "country": 102,
+                            "longitude": "50.004497",
+                            "latitude": "36.269729",
+                            "englishTitle": "Qazvin"
+                        },
+                        {
+                            "id": 16,
+                            "title": "قم",
+                            "country": 102,
+                            "longitude": "50.867163",
+                            "latitude": "34.638238",
+                            "englishTitle": "Qom"
+                        },
+                        {
+                            "id": 24,
+                            "title": "كردستان",
+                            "country": 102,
+                            "longitude": "46.953194",
+                            "latitude": "35.742340",
+                            "englishTitle": "Kordestan"
+                        },
+                        {
+                            "id": 11,
+                            "title": "كرمان",
+                            "country": 102,
+                            "longitude": "57.056635",
+                            "latitude": "30.274218",
+                            "englishTitle": "Kerman"
+                        },
+                        {
+                            "id": 19,
+                            "title": "كرمانشاه",
+                            "country": 102,
+                            "longitude": "47.084885",
+                            "latitude": "34.335549",
+                            "englishTitle": "Kermanshah"
+                        },
+                        {
+                            "id": 28,
+                            "title": "كهكیلویه وبویراحمد",
+                            "country": 102,
+                            "longitude": "50.244307",
+                            "latitude": "30.840906",
+                            "englishTitle": "Kohkiloye Va Boyerahmad"
+                        },
+                        {
+                            "id": 21,
+                            "title": "لرستان",
+                            "country": 102,
+                            "longitude": "48.444101",
+                            "latitude": "33.540360",
+                            "englishTitle": "Lorestan"
+                        },
+                        {
+                            "id": 5,
+                            "title": "مازندران",
+                            "country": 102,
+                            "longitude": "52.264634",
+                            "latitude": "36.350872",
+                            "englishTitle": "Mazandaran"
+                        },
+                        {
+                            "id": 18,
+                            "title": "مركزی",
+                            "country": 102,
+                            "longitude": "49.849804",
+                            "latitude": "34.533287",
+                            "englishTitle": "Markazi"
+                        },
+                        {
+                            "id": 10,
+                            "title": "هرمزگان",
+                            "country": 102,
+                            "longitude": "56.665102",
+                            "latitude": "27.691953",
+                            "englishTitle": "Hormozgan"
+                        },
+                        {
+                            "id": 20,
+                            "title": "همدان",
+                            "country": 102,
+                            "longitude": "48.516245",
+                            "latitude": "34.805825",
+                            "englishTitle": "Hamedan"
+                        },
+                        {
+                            "id": 27,
+                            "title": "چهارمحال بختیاری",
+                            "country": 102,
+                            "longitude": "49.9961891",
+                            "latitude": "31.9053982",
+                            "englishTitle": "Chaharmahal va Bakhtiari"
+                        },
+                        {
+                            "id": 15,
+                            "title": "گلستان",
+                            "country": 102,
+                            "longitude": "54.969994",
+                            "latitude": "37.220295",
+                            "englishTitle": "Golestan"
+                        },
+                        {
+                            "id": 6,
+                            "title": "گیلان",
+                            "country": 102,
+                            "longitude": "49.358143",
+                            "latitude": "37.254778",
+                            "englishTitle": "Gilan"
+                        },
+                        {
+                            "id": 13,
+                            "title": "یزد",
+                            "country": 102,
+                            "longitude": " 54.338138",
+                            "latitude": "31.884787",
+                            "englishTitle": "Yazd"
+                        }
+                    ],
+                    "_links": {
+                        "self": {
+                            "href": "http://localhost/hojreapi/web/states?page=1&per-page=300"
+                        }
+                    },
+                    "_meta": {
+                        "totalCount": 31,
+                        "pageCount": 1,
+                        "currentPage": 1,
+                        "perPage": 300
+                    }
+                }
+
+    ```
+
+* **Error Response:**
+    ```
+    
+    
+    ```
+ 
+* **Notes:**
+
+
+---
+
+**Get Countries**
+----
+
+* **URL**
+
+```  
+        https://api.hojrenama.com/web/countries
+```  
+    
+* **Method:**
+ ```  
+GET
+ ```
+*  **URL Params**
+
+```
+
+```
+
+* **Success Response:**
+  
+
+  * **Code:** 200 <br />
+    **Content:** 
+    ```
+
+        {
+            "items": [
+                {
+                    "id": 102,
+                    "country_code": "IR",
+                    "country_name": "جمهوری اسلامی ایران"
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://localhost/hojreapi/web/countries?page=1"
+                }
+            },
+            "_meta": {
+                "totalCount": 1,
+                "pageCount": 1,
+                "currentPage": 1,
+                "perPage": 10
+            }
+        }
+    ```
+
+* **Error Response:**
+    ```
+    
+    
+    ```
+ 
+* **Notes:**
+
+
+---
 **Main Search**
 ----
 
