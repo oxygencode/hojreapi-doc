@@ -44,7 +44,7 @@ Table of contents
 
 21. [List All Broadcats](https://github.com/mosi1994/hojreapi-doc/blob/master/STORE_MANAGER_PROFILE.md#list-all-broadcats)
 
-22. [Unique Broadcast](https://github.com/mosi1994/hojreapi-doc/blob/master/CUSTOMER_PROFILE.md#unique-broadcasts) 
+22. [Unique Broadcast](https://github.com/mosi1994/hojreapi-doc/blob/master/CUSTOMER_PROFILE.md#unique-broadcast) 
 
 
 
