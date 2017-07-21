@@ -64,6 +64,99 @@ Table Of Content
 
 
 
+**Popular Bazzars**
+----
+
+* **URL**
+
+```  
+        https://api.hojrenama.com/web/bazzar-categories
+```  
+    
+* **Method:**
+ ```  
+GET
+ ```
+*  **URL Params**
+
+```
+
+```
+
+* **Success Response:**
+  
+
+  * **Code:** 200 <br />
+    **Content:** 
+    ```
+                {
+                    "items": [
+                        {
+                            "id": 5,
+                            "title": "Building Materials",
+                            "image": "img/material.jpg"
+                        },
+                        {
+                            "id": 6,
+                            "title": "Car Tools",
+                            "image": "img/car.jpg"
+                        },
+                        {
+                            "id": 8,
+                            "title": "Clothes and Fashion",
+                            "image": "img/fashio.jpg"
+                        },
+                        {
+                            "id": 1,
+                            "title": "Digital",
+                            "image": "img/digital.jpg"
+                        },
+                        {
+                            "id": 4,
+                            "title": "Furniture",
+                            "image": "img/mobleman.jpg"
+                        },
+                        {
+                            "id": 2,
+                            "title": "Plants",
+                            "image": "img/plants.jpg"
+                        },
+                        {
+                            "id": 3,
+                            "title": "Sports Cars",
+                            "image": "img/sportscar.jpg"
+                        },
+                        {
+                            "id": 7,
+                            "title": "Vehicles",
+                            "image": "img/car.jpg"
+                        }
+                    ],
+                    "_links": {
+                        "self": {
+                            "href": "http://localhost/hojreapi/web/bazzar-categories?page=1&per-page=300"
+                        }
+                    },
+                    "_meta": {
+                        "totalCount": 8,
+                        "pageCount": 1,
+                        "currentPage": 1,
+                        "perPage": 300
+                    }
+                }
+
+    ```
+
+* **Error Response:**
+    ```
+    
+    
+    ```
+ 
+* **Notes:**
+
+
+---
 
 **Check Activation Code**
 ----
