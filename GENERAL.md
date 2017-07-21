@@ -63,6 +63,53 @@ Table Of Content
 29.[Store Manager and Seller Login](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#store-login)
 
 
+**Home Page Image**
+----
+
+* **URL**
+
+```  
+        https://api.hojrenama.com/web/static/slider
+```  
+    
+* **Method:**
+ ```  
+GET
+ ```
+*  **URL Params**
+
+```
+
+```
+
+* **Success Response:**
+  
+
+  * **Code:** 200 <br />
+    **Content:** 
+    ```
+                {
+                    "status": "success",
+                    "message": "Slider Images",
+                    "data": {
+                        "1": "img/slider1.jpg",
+                        "2": "img/slider1.jpg",
+                        "3": "img/slider1.jpg"
+                    }
+                }
+
+    ```
+
+* **Error Response:**
+    ```
+    
+    
+    ```
+ 
+* **Notes:**
+
+
+---
 
 **Popular Bazzars**
 ----
