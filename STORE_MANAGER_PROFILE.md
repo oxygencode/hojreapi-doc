@@ -162,11 +162,11 @@ GET
 
 * **Error Response:**
     ```
-    {
-"status": "error",
-"message": "not login",
-"data": ""
-}
+                    {
+                "status": "error",
+                "message": "not login",
+                "data": ""
+                }
     
     ```
  
