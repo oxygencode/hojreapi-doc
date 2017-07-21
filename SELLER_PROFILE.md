@@ -20,9 +20,9 @@ Table of contents
 
 9. [Statistics](https://github.com/mosi1994/hojreapi-doc/blob/master/SELLER_PROFILE.md#statistics) 
 
-10. [Unique Broadcast](https://github.com/mosi1994/hojreapi-doc/blob/master/CUSTOMER_PROFILE.md#unique-broadcasts) 
+10. [Unique Broadcast](https://github.com/mosi1994/hojreapi-doc/blob/master/SELLER_PROFILE.md#unique-broadcasts) 
 
-11. [List All Broadcats](https://github.com/mosi1994/hojreapi-doc/blob/master/STORE_MANAGER_PROFILE.md#list-all-broadcats)
+11. [List All Broadcats](https://github.com/mosi1994/hojreapi-doc/blob/master/SELLER_PROFILE.md#list-all-broadcats)
 
 
 **List All Broadcats**
