@@ -16,9 +16,9 @@ Table Of Content
 
 6.[Popular Bazzars](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#popular-bazzars)
 
-7.[About Us](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#about-us-data)
+7.[About Us](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#about-us)
 
-8.[Contact Us Data](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#contact-us)
+8.[Contact Us Data](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#contact-us-data)
 
 9.[Send Support Message](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#send-support-message)
 
