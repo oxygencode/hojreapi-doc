@@ -42,7 +42,7 @@ Table of contents
 
 20. [List Chat Messages](https://github.com/mosi1994/hojreapi-doc/blob/master/STORE_MANAGER_PROFILE.md#list-chat-messages)
 
-21. [List All Store Messages](https://github.com/mosi1994/hojreapi-doc/blob/master/STORE_MANAGER_PROFILE.md#list-all-store-messages)
+21. [List All Broadcats](https://github.com/mosi1994/hojreapi-doc/blob/master/STORE_MANAGER_PROFILE.md#list-all-broadcats)
 
 22. [Unique Broadcast](https://github.com/mosi1994/hojreapi-doc/blob/master/CUSTOMER_PROFILE.md#unique-broadcasts) 
 
@@ -101,7 +101,7 @@ id:41
 ---
 
 
-**List All Store Messages**
+**List All Broadcats**
 ----
 
 * **URL**
