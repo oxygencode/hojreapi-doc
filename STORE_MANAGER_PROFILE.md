@@ -42,8 +42,82 @@ Table of contents
 
 20. [List Chat Messages](https://github.com/mosi1994/hojreapi-doc/blob/master/STORE_MANAGER_PROFILE.md#list-chat-messages)
 
+21. [List All Store Messages](https://github.com/mosi1994/hojreapi-doc/blob/master/STORE_MANAGER_PROFILE.md#list-all-store-messages)
 
 
+**List All Store Messages**
+----
+
+* **URL**
+
+```  
+        https://api.hojrenama.com/web//broadcasts
+```  
+    
+* **Method:**
+ ```  
+GET
+ ```
+*  **URL Params**
+
+```
+@username
+@token
+@x
+@y
+@perPage
+@page
+```
+
+* **Success Response:**
+  
+
+  * **Code:** 200 <br />
+    **Content:** 
+    ```
+        {
+        "items": [
+        {
+        "id": 1,
+        "title": "Test",
+        "text": "Test",
+        "user": 7617,
+        "role": null,
+        "date": 1494757007,
+        "show": "yes"
+        }
+        ],
+        "_links": {
+        "self": {
+        "href": "http://localhost/hojreapi/web/broadcasts?
+        username=09123566777&token=2k8JIZwjUYpCizwcpq3__GVrD_o3cpwZ&page=1&per-
+        page=300"
+        }
+        },
+        "_meta": {
+        "totalCount": 1,
+        "pageCount": 1,
+        "currentPage": 1,
+        "perPage": 300
+        }
+        }
+
+    ```
+
+* **Error Response:**
+    ```
+    {
+"status": "error",
+"message": "not login",
+"data": ""
+}
+    
+    ```
+ 
+* **Notes:**
+
+
+---
 **Edit Store Information**
 ----
 
