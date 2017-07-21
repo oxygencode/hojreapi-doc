@@ -63,6 +63,155 @@ Table Of Content
 29.[Store Manager and Seller Login](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#store-login)
 
 
+
+**Send Support Message**
+----
+
+* **URL**
+
+```  
+        https://api.hojrenama.com/web/static/send-contact-message
+```  
+    
+* **Method:**
+ ```  
+POST
+ ```
+*  **URL Params**
+
+```
+name:Mostafa
+email:maksdgas@asdasd.com
+text:texst
+```
+
+* **Success Response:**
+  
+
+  * **Code:** 200 <br />
+    **Content:** 
+    ```
+        {
+            "status": "success",
+            "message": "Your Message Has been Sent",
+            "data": ""
+        }
+
+    ```
+
+* **Error Response:**
+    ```
+    
+    
+    ```
+ 
+* **Notes:**
+
+
+---
+
+**Contact Us Data**
+----
+
+* **URL**
+
+```  
+        https://api.hojrenama.com/web/static/contact
+```  
+    
+* **Method:**
+ ```  
+GET
+ ```
+*  **URL Params**
+
+```
+
+```
+
+* **Success Response:**
+  
+
+  * **Code:** 200 <br />
+    **Content:** 
+    ```
+                {
+                    "status": "success",
+                    "message": "Contact Us Text",
+                    "data": {
+                        "text": "This is Contact US Text",
+                        "phone": "021-22334455",
+                        "email": "info@hojrenama.com",
+                        "website": "https://hojrenama.com",
+                        "company": "hojrenama",
+                        "longitude": "51.2324",
+                        "latitude": "31.12213"
+                    }
+                }
+
+    ```
+
+* **Error Response:**
+    ```
+    
+    
+    ```
+ 
+* **Notes:**
+
+
+---
+
+
+
+**About Us**
+----
+
+* **URL**
+
+```  
+        https://api.hojrenama.com/web/static/about
+```  
+    
+* **Method:**
+ ```  
+POST
+ ```
+*  **URL Params**
+
+```
+
+```
+
+* **Success Response:**
+  
+
+  * **Code:** 200 <br />
+    **Content:** 
+    ```
+                {
+                    "status": "success",
+                    "message": "About Us Text",
+                    "data": {
+                        "text": "This is About Text"
+                    }
+                }
+
+    ```
+
+* **Error Response:**
+    ```
+    
+    
+    ```
+ 
+* **Notes:**
+
+
+---
+
+
+
 **Home Page Image**
 ----
 
