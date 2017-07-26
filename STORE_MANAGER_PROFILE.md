@@ -52,6 +52,105 @@ Table of contents
 
 25. [List Store Gallery](https://github.com/mosi1994/hojreapi-doc/blob/master/STORE_MANAGER_PROFILE.md#list-store-gallery) 
 
+**Add Store Gallery**
+----
+
+* **URL**
+
+```  
+        https://api.hojrenama.com/web/store-manager/add-store-gallery
+```  
+    
+* **Method:**
+ ```  
+        POST
+ ```
+*  **URL Params**
+
+```
+username:09121714981
+token:DcW0AM5OseZiPYJ8680w3w4XV7wpnh1W
+x:35.235564
+y:45.234523
+source:img/filename.jpg
+type:image
+order:1
+
+```
+
+* **Success Response:**
+  
+
+  * **Code:** 200 <br />
+    **Content:** 
+```
+          
+         {
+            "status": "success",
+            "message": "done",
+            "data": ""
+         }
+```
+
+* **Error Response:**
+    ```
+    
+    
+    ```
+ 
+* **Notes:**
+
+
+---
+
+**Delete Store Gallery**
+----
+
+* **URL**
+
+```  
+        https://api.hojrenama.com/web/store-manager/delete-store-gallery
+```  
+    
+* **Method:**
+ ```  
+        POST
+ ```
+*  **URL Params**
+
+```
+username:09121714981
+token:DcW0AM5OseZiPYJ8680w3w4XV7wpnh1W
+x:35.235564
+y:45.234523
+id:24
+```
+
+* **Success Response:**
+  
+
+  * **Code:** 200 <br />
+    **Content:** 
+```  
+         {
+            "status": "success",
+            "message": "done",
+            "data": ""
+         }
+            
+```
+
+* **Error Response:**
+    ```
+    
+    
+    ```
+ 
+* **Notes:**
+
+
+---
+
 
 **List Store Gallery**
 ----
