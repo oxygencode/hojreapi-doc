@@ -62,6 +62,99 @@ Table Of Content
 
 29.[Store Manager and Seller Login](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#store-login)
 
+30.[Upload For Store Manager](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#upload-store-manager)
+
+31.[Upload For Customer](https://github.com/mosi1994/hojreapi-doc/blob/master/GENERAL.md#upload-customer)
+
+**Upload Customer**
+----
+
+* **URL**
+
+```  
+        https://api.hojrenama.com/web/upload/imgupload
+```  
+    
+* **Method:**
+ ```  
+POST
+```
+*  **URL Params**
+
+```
+        @submit : File
+```
+
+* **Success Response:**
+  
+
+  * **Code:** 200 <br />
+    **Content:** 
+    ```
+        'https://bazaar.hojrenama.com/img/fileName.jpg'
+               
+    ```
+
+* **Error Response:**
+    ```
+                'error'
+    
+    ```
+ 
+* **Notes:**
+
+
+---
+
+**Upload For Store Manager**
+----
+
+* **URL**
+
+```  
+        https://api.hojrenama.com/web/upload/imguploadSajad
+```  
+    
+* **Method:**
+ ```  
+POST
+```
+*  **URL Params**
+
+```
+        @submit : File
+```
+
+* **Success Response:**
+  
+
+  * **Code:** 200 <br />
+    **Content:** 
+    ```
+
+                {
+                "status": "success",
+                "message": "upload done",
+                "data": {
+                        'name' => 'img/fileName.jpg'
+                 }
+                }
+    ```
+
+* **Error Response:**
+    ```
+                {
+                "status": "error",
+                "message": "cant upload",
+                "data": ''
+                }
+    
+    ```
+ 
+* **Notes:**
+
+
+---
 
 
 **Get Hoods**
