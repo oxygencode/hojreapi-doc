@@ -48,7 +48,7 @@ Table of contents
 
 23. [Unique Store Message](https://github.com/mosi1994/hojreapi-doc/blob/master/STORE_MANAGER_PROFILE.md#unique-store-message) 
 
-24. [Unique Product](https://github.com/mosi1994/hojreapi-doc/blob/master/STORE_MANAGER_PROFILE.md#unique-store-message) 
+24. [Unique Product](https://github.com/mosi1994/hojreapi-doc/blob/master/STORE_MANAGER_PROFILE.md#unique-product) 
 
 
 **Unique Product**
