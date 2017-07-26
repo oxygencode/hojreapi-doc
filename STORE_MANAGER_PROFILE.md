@@ -30,7 +30,7 @@ Table of contents
 
 14. [Edit Product](https://github.com/mosi1994/hojreapi-doc/blob/master/STORE_MANAGER_PROFILE.md#edit-product)
 
-15. [Add Store Gallery](https://github.com/mosi1994/hojreapi-doc/blob/master/STORE_MANAGER_PROFILE.md#edit-product)
+15. [Add Store Gallery](https://github.com/mosi1994/hojreapi-doc/blob/master/STORE_MANAGER_PROFILE.md#add-store-gallery)
 
 16. [Delete Store Gallery](https://github.com/mosi1994/hojreapi-doc/blob/master/STORE_MANAGER_PROFILE.md#delete-store-gallery)
 
