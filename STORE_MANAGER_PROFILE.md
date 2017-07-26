@@ -46,7 +46,7 @@ Table of contents
 
 22. [Unique Broadcast](https://github.com/mosi1994/hojreapi-doc/blob/master/CUSTOMER_PROFILE.md#unique-broadcast) 
 
-23. [Unique Store Message] (https://github.com/mosi1994/hojreapi-doc/blob/master/CUSTOMER_PROFILE.md#unique-store-message) 
+23. [Unique Store Message](https://github.com/mosi1994/hojreapi-doc/blob/master/STORE_MANAGER_PROFILE.md#unique-store-message) 
 
 
 
