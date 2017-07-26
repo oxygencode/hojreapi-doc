@@ -46,6 +46,81 @@ Table of contents
 
 22. [Unique Broadcast](https://github.com/mosi1994/hojreapi-doc/blob/master/CUSTOMER_PROFILE.md#unique-broadcast) 
 
+23. [Unique Store Message] (https://github.com/mosi1994/hojreapi-doc/blob/master/CUSTOMER_PROFILE.md#unique-store-message) 
+
+
+
+
+**Unique Store Message**
+----
+
+* **URL**
+
+```  
+        https://api.hojrenama.com/web/store-manager/unique-store-message
+
+```  
+    
+* **Method:**
+ ```  
+POST
+ ```
+*  **URL Params**
+
+```
+username:09121714981
+token:DcW0AM5OseZiPYJ8680w3w4XV7wpnh1W
+x:35.235564
+y:45.234523
+id:24
+```
+
+* **Success Response:**
+  
+
+  * **Code:** 200 <br />
+    **Content:** 
+    ```
+              {
+    "status": "success",
+    "message": "store messages result",
+    "totalCount": "1",
+    "totalPages": 1,
+    "page": 1,
+    "perPage": 300,
+    "data": [
+        {
+            "id": 24,
+            "user": 1,
+            "title": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. ",
+            "text": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.",
+            "attachment": null,
+            "sendDate": 1500808133,
+            "read": 0,
+            "store": 413,
+            "answer": "گیرد.",
+            "answerDate": 1500808133,
+            "answerAttachment": null,
+            "status": "active",
+            "senderName": "Mostafa Azizi"
+        }
+    ]
+}
+
+    ```
+
+* **Error Response:**
+    ```
+    
+    
+    ```
+ 
+* **Notes:**
+
+
+---
+
+
 
 
 **Unique Broadcast**
