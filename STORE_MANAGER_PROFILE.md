@@ -80,7 +80,7 @@ id:24
 
   * **Code:** 200 <br />
     **Content:** 
-    ```
+```
               {
     "status": "success",
     "message": "store messages result",
@@ -105,9 +105,8 @@ id:24
             "senderName": "Mostafa Azizi"
         }
     ]
-}
-
-    ```
+ }
+```
 
 * **Error Response:**
     ```
