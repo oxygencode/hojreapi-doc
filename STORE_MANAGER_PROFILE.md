@@ -48,7 +48,78 @@ Table of contents
 
 23. [Unique Store Message](https://github.com/mosi1994/hojreapi-doc/blob/master/STORE_MANAGER_PROFILE.md#unique-store-message) 
 
+24. [Unique Product](https://github.com/mosi1994/hojreapi-doc/blob/master/STORE_MANAGER_PROFILE.md#unique-store-message) 
 
+
+**Unique Product**
+----
+
+* **URL**
+
+```  
+        https://api.hojrenama.com/web/store-manager/unique-product
+
+```  
+    
+* **Method:**
+ ```  
+        POST
+ ```
+*  **URL Params**
+
+```
+username:09121714981
+token:DcW0AM5OseZiPYJ8680w3w4XV7wpnh1W
+x:35.235564
+y:45.234523
+id:24
+```
+
+* **Success Response:**
+  
+
+  * **Code:** 200 <br />
+    **Content:** 
+```
+            {
+    "status": "success",
+    "message": "List of products",
+    "totalCount": "1",
+    "totalPages": 1,
+    "page": 1,
+    "perPage": 300,
+    "data": [
+        {
+            "id": 5,
+            "title": "محافظ\u200cهای اورجینال كليركوت",
+            "mainImage": "img/product/88073c391444c636b03d1c90a9d9a57b.png",
+            "category": 23,
+            "categoryTitle": "لوازم جانبی گوشی",
+            "description": "<div class=\"wpb_text_column \">\r\n<div class=\"wpb_wrapper\"><strong>كليركوت</strong> فقط مختص يك نوع برند خاص نيست و براي انواع موبايل از جمله آيفون، بلك بري، سامسونگ، الجي، اچ تي سي، هواوي و&hellip; ميباشد. از ديگر مزيت هايي كه برند ما نسبت&nbsp;به ديگر برندهاي حاضر در بازار دارد وجود گارانتي مادام العمر آن ميباشد .</div>\r\n</div>\r\n<p>&nbsp;</p>",
+            "status": "active",
+            "price": 180000,
+            "top": "yes",
+            "viewed": null,
+            "liked": null,
+            "disliked": null,
+            "favoriteCount": null,
+            "commentsCount": null,
+            "notificationCount": null
+        }
+    ]
+ } 
+```
+
+* **Error Response:**
+    ```
+    
+    
+    ```
+ 
+* **Notes:**
+
+
+---
 
 
 **Unique Store Message**
