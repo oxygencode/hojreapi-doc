@@ -8,9 +8,52 @@ Table Of Content
 
 2.[Edit user information](https://github.com/mosi1994/hojreapi-doc/blob/master/Customer.md#edit-user-information)
 
+3.[Forget Password](https://github.com/mosi1994/hojreapi-doc/blob/master/Customer.md#edit-user-information)
+
 
 ----
 
+**Forget Password**
+----
+
+* **URL**
+
+```  
+https://api.hojrenama.com/web/user/forget
+```  
+    
+* **Method:**
+```  
+POST
+```
+*  **URL Params**
+
+```
+username:09335556196
+```
+
+* **Success Response:**
+```
+{
+    "status": "success",
+    "message": "New Password generated and sent ",
+    "data": ""
+}
+```
+
+* **Error Response:**
+```
+{
+    "status": "error",
+    "message": "Some Error Message In Your Language",
+    "data": ""
+}
+```
+ 
+* **Notes:**
+
+
+---
 
 
 **Get User Information**
