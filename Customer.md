@@ -6,6 +6,7 @@ Table Of Content
 
 1.[Get user information](https://github.com/mosi1994/hojreapi-doc/blob/master/Customer.md#get-user-information)
 
+2.[Edit user information](https://github.com/mosi1994/hojreapi-doc/blob/master/Customer.md#edit-user-information)
 
 
 ----
@@ -86,7 +87,7 @@ y:51.2131455
 
 {
     "status": "error",
-    "message": "Not Login",
+    "message": "Some Error Message In Your Language",
     "data": ""
 }
 
@@ -96,3 +97,76 @@ y:51.2131455
 
 
 ---
+
+
+
+
+**Edit User Information**
+----
+
+* **URL**
+
+```  
+https://api.hojrenama.com/web/user/edit
+```  
+    
+* **Method:**
+```  
+POST
+```
+*  **URL Params**
+
+```
+
+username:09121111111
+token:Jd6RQb0oW2XzmpUOmoWK5PdE96q6sqXL
+x:31.123123
+y:51.123123
+User[name]:mostafa
+User[family]:hasanabadi
+User[phone]:02133835516
+User[email]:mhiusadh@asada.com
+User[state]:1
+User[city]:19
+User[hood]:402
+User[address]:sadias daksghasjudw
+User[age]:53
+User[gender]:male
+User[telegram]:
+User[twitter]:
+User[linkedin]:
+User[facebook]:
+User[instagram]:
+User[googleplus]:
+User[website]:
+User[avatar]:
+
+```
+
+* **Success Response:**
+```
+
+{
+    "status": "success",
+    "message": "updated successfully",
+    "data": ""
+}
+               
+```
+
+* **Error Response:**
+```
+
+{
+    "status": "error",
+    "message": "Some Error Message In Your Language",
+    "data": ""
+}
+
+```
+ 
+* **Notes:**
+
+
+---
+
