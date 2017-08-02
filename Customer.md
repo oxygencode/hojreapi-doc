@@ -8,7 +8,7 @@ Table Of Content
 
 2.[Edit user information](https://github.com/mosi1994/hojreapi-doc/blob/master/Customer.md#edit-user-information)
 
-3.[Forget Password](https://github.com/mosi1994/hojreapi-doc/blob/master/Customer.md#edit-user-information)
+3.[Forget Password](https://github.com/mosi1994/hojreapi-doc/blob/master/Customer.md#forget-password)
 
 
 ----
